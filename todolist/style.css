@@ -1,0 +1,218 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.master-container {
+  font-family: "Poppins", sans-serif;
+  min-height: 90vh;
+  background: linear-gradient(-120deg, rgb(130, 215, 255), rgb(255, 76, 76));
+}
+header {
+  min-height: 10vh;
+  background: rgb(0, 10, 26);
+}
+header h3 {
+  color: rgb(255, 202, 202);
+  font-size: 2.5rem;
+}
+footer {
+  min-height: 10vh;
+  background: rgb(0, 10, 26);
+}
+.input {
+  border-radius: 1rem;
+}
+header {
+  min-height: 10vh;
+  font-size: 2.5rem;
+  color: rgba(38, 36, 41, 0.904);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 3rem;
+  flex-wrap: wrap;
+}
+.input {
+  background: rgb(255, 255, 255);
+  font-size: 2rem;
+  width: 50%;
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.priorty {
+  background: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 7rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+.priorty-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+}
+.save-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.input-btn {
+  border: none;
+  background: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  width: 5rem;
+  height: 3rem;
+}
+.nav {
+  flex-wrap: wrap;
+}
+form button {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: rgba(38, 36, 41, 0.904);
+}
+.input-btn:hover {
+  background: rgb(41, 206, 0);
+}
+.todo-contain {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.todo-lists {
+  list-style: none;
+}
+.todo-style {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  min-width: 30%;
+  background: white;
+  margin: 0.5rem;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+.textarea-style {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-size: 1.2rem;
+  resize: none;
+  padding: 0rem 5rem;
+}
+.todo-style {
+  padding-left: 0.5rem;
+}
+.todo-lists li {
+  flex: 1;
+  flex-wrap: wrap;
+}
+.p1,
+.p2,
+.p3,
+.p4 {
+  border: none;
+  padding: 0.8rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: #ffffff8a;
+}
+.p1 {
+  background: #7bda00;
+  transition: all 0.3s ease;
+}
+.p2 {
+  background: #fcce02;
+  transition: all 0.3s ease;
+}
+.toggleGreen {
+  background: green;
+}
+.toggleAmber {
+  background: rgb(255, 191, 0);
+}
+.toggleRed {
+  background: crimson;
+}
+.p3 {
+  background: crimson;
+  transition: all 0.3s ease;
+}
+.p4 {
+  background: rgb(49, 46, 46);
+  color: white;
+  transition: all 0.3s ease;
+}
+.p1:hover {
+  background: #007906;
+  color: #01003b;
+  transition: all 0.3s ease;
+}
+.p2:hover {
+  background: #bebb00;
+  color: #01003b;
+  transition: all 0.3s ease;
+}
+.p3:hover {
+  background: rgb(141, 0, 28);
+  color: #000933;
+  transition: all 0.3s ease;
+}
+.p4:hover {
+  background: rgb(224, 217, 217);
+  color: rgb(58, 51, 51);
+  transition: all 0.3s ease;
+}
+.btn-to {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.btn {
+  width: 5rem;
+  height: 3rem;
+  margin: 0.5rem 1rem;
+  background-color: rgb(255, 202, 202);
+}
+
+/////////////////////////////////////////////
+@media screen and (max-width: 781px) {
+  .master-container {
+    min-height: 100%;
+    min-width: 100%;
+  }
+  .input {
+    min-width: 5%;
+  }
+}
